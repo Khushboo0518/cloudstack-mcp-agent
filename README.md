@@ -31,32 +31,30 @@ Create and manage virtual machines in Apache CloudStack using natural language t
    cd cloudstack-mcp-agent
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the server
 
-bash
-Copy
-Edit
+
 python server.py
 📦 File Structure
-text
-Copy
-Edit
+
+
+
+
 server.py          # Main logic for VM creation using MCP
 README.md          # Project documentation
 requirements.txt   # Python dependencies (if any)
 🔑 API Configuration
 Inside server.py, set your API key and secret key:
 
-python
-Copy
-Edit
+
 API_KEY = "your-api-key"
 SECRET_KEY = "your-secret-key"
 ENDPOINT = "http://your-cloudstack-endpoint/client/api"
+
+
+
 ✍️ Author
 Khushboo – Developer & Cloud Enthusiast
 
