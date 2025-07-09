@@ -1,0 +1,15 @@
+##Create `requirements.txt`
+
+If your `server.py` uses these packages, add them:
+
+```txt
+requests
+openai        # only if you use GPT models
+python-dotenv # only if using a .env file
+
+To auto-generate it:
+
+bash
+Copy
+Edit
+pip freeze > requirements.txt
